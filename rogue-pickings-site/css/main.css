@@ -1,0 +1,196 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+/***** BASE STYLES *****/
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+	margin: 0 auto;
+}
+
+.header-width {
+    width: 1200px;
+    height: 100px;
+		margin: 0 auto;
+}
+
+.half-width1 {
+  width: 600px;
+  height: 100px;
+  float: left;
+	margin: 0 auto;
+}
+
+.main-image {
+  width: 1200px;
+  padding-left: 20px;
+	margin: 0 auto;
+}
+
+.box-container {
+    width: 1200px;
+    height: 200px;
+
+		margin: 0 auto;
+}
+
+.box1,
+.box2,
+.box3
+ {
+    width: 390px;
+    height: 210px;
+    float: left;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+		margin: 0 auto;
+}
+
+.box2 {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.box1 h4 {
+	font-size: 14px;
+	padding-left: 10px
+}
+
+.box2,
+.box3 h4 {
+font-size: 14px;
+padding-left: 20px;
+}
+
+.box2,
+.box3 p {
+padding-left: 20px;
+}
+
+
+.footer-box {
+    width: 1220px;
+    height: 200px;
+		margin: 0 auto;
+}
+
+
+/***** HEADER *****/
+
+header h1 {
+font-size: 28px;
+padding-left: 10px;
+padding-top: 20px;
+align-content: left;
+
+}
+
+header h1 span {
+color:#77a466;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul li {
+display: inline-block;
+float: left;
+}
+
+header nav ul li a {
+font-size: 13px;
+color:#77a466;
+text-decoration: none;
+display: inline-block;
+padding-left: 10px;
+padding-top: 30px;
+padding-bottom: 15px;
+}
+
+/******* IMG *******/
+
+#img {
+border: 3px solid #77a466;
+}
+
+/***** WELCOME****/
+
+#welcome h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color:#77a466;
+  padding-left: 10px;
+  line-height: 20px;
+}
+
+#welcome p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  line-height: 25px;
+  padding-left: 10px;
+  width: 1170px;
+}
+
+#header2-3 {
+padding-left: 20px;
+}
+
+/***** TODAYS SPECIALS *****/
+
+#food  {
+  font-size: 14px;
+  color: green;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-top: 0px;
+  float: left;
+  }
+
+/***** REVIEWS *****/
+
+#reviews p {
+font-size: 14px;
+color: black;
+padding-top: 0px;
+line-height: 24px;
+margin-left: 20px;
+margin-right: 20px;
+float: left;
+}
+
+/***** CONTACT US *****/
+
+#address {
+  font-size: 14px;
+  color: black;
+  line-height: 20px;
+  float: left;
+  padding-left: 20px;
+
+  }
+
+/***** FOOTER *****/
+
+footer {
+	height: 50px;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+  padding-top: 10px;
+  padding
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
